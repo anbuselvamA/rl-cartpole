@@ -17,7 +17,9 @@ The project focuses on developing an efficient Monte Carlo control algorithm spe
 **Step 7**: Convergence: Repeat the process until Q-values stabilize or a predefined number of episodes is reached.<br>
 
 ## MONTE CARLO CONTROL FUNCTION
-```python
+### NAME :A.ANBUSELVAM
+### REG :212222240009
+```
 def mc_control (env,n_bins=g_bins, gamma = 1.0,
                 init_alpha = 0.5,min_alpha = 0.01, alpha_decay_ratio = 0.5,
                 init_epsilon = 1.0, min_epsilon = 0.1, epsilon_decay_ratio = 0.9,
